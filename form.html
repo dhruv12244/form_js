@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../Task1/form/form.css">
+    <div class="content"></div>
+    <script src="../Task1/form/form.js"></script>
+    <h1> Customers Details:</h1>
+    <form name="form" onsubmit="return validateForm()" method="post">
+      <hr><br>
+         
+      <div>
+      <h2>Full name<span style="color: red ;">*</span></h2>
+      <input type="text1" id="fname" name="fname" value="">
+      <p id="OP1"></p>
+      <label for="fname">First name</label>
+      </div>
+      <input type="text2" id="lname" name="fname" value=""><br>
+      <p id="OP2"></p>
+      
+      <lable for="fname">Last name</lable>
+      <h2>Address <span style="color: red ;">*</span></h2>
+      <input type="text3" id="Address1" name="Address1">
+      <p id="OP3"></p><br>
+      <label for="Address1">Street Address</Address></label><br><br>
+      <input type="text4" id="Address2" name="Address2">
+      <p id="OP4"></p><br>
+      <label for="Address2">Street Address line2</Address></label><br><br>
+      <input type="text5" id="city" name="city">
+      <label for="city"><br>city</label>
+      
+      <p id="OP5"></p> <br>
+      
+      
+      
+      
+      <input type="text6" id="state" name="state"><br>
+      <label for="state/province">State/province</Address></label><br><br>
+      
+      
+     
+      <p id="OP6"></p><br>
+      
+      <input type="number1" id="Postal" name="Postal">
+      <p id="OP7"></p>
+      <label for="Postal/zip code">Postal/zip code</Address></label><br><br>
+      <h2>Phone Number <span style="color: red ;">*</span></h2>
+      <input type="number2"id="phonenumber"name="phone number" placeholder="(000)000-0000"><br>
+      <p id="OP13"></p>
+      
+      <label for="phonenumber"></label>
+      <h2>E-mail</h2>
+      <input type="email"id="email"name="email" placeholder="ex: email@yahoo.com">
+      <p id="OP8"></p><br>
+      <label for="email"></email></label><br>
+      <label><b>How did you hear about us?</b></label> <br> <br>  
+    <select>  
+    <option value="Magazine">Magazine</option>  
+    <option value="Friends">Friends</option>  
+    <option value="E-mail">E-mail</option>  
+    <option value="Youtube">Youtube</option>  
+    <option value="Others" >Others</option> 
+    </select>  
+    <h2>Feedback about us:</h2>
+    <textarea type="text7" name="Feedback" id="Feedback" cols="125" rows="10" ></textarea></div><br>
+     <p id="OP9"></p>
+      
+      
+      
+     <h2>Suggestions if for further improvement:</h2>
+     <textarea type="text8" name="Suggestions" id="suggesions" cols="125" rows="10" ></textarea><br><br>
+     <p id="OP10"></p><br>
+      
+      
+      
+      <form>
+        <label for="vehicle1"><b> Will you be willing to recommend us?</b></label>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></form><br>
+        <p id="OP11"></p><br><br>
+        
+        
+      <form>
+        <p id="OP12"></p>
+        <p><b>Gender:</b></p>
+        <input type="radio" id="male" name="gender" value="Male">
+          <label for="Male">Male</label>
+          <input type="radio" id="Female" name="gender" value="Female">
+          <label for="Female">Female</label>
+          <input type="radio" id="Other" name="gender" value="Other">
+          <label for="Other">Other</label>
+      </form>
+      <h2>Please give reference of any people whom :</h2>
+      <table align="center">
+        <form>
+          <thread>
+  
+          <tr>
+            <td style="border-top-color:white; border-left-color:white"></td>
+                    
+            <th>Full Name </th>
+            <th>Address</th>
+            <th>Contact Number</th>
+          </tr>
+          <tr>
+              <td> 1 </td>
+            <td><input class="rinput" type="text"/> </td>
+            <td>  <input class="rinput" type="text"/>  </td>
+            <td><input class="rinput" type="text"/> </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>   <input class="rinput" type="text"/> </td>
+            <td>    <input class="rinput" type="text"/>  </td>
+            <td>    <input class="rinput" type="text"/> </td>
+          </tr>
+         </form>
+        </thread>
+        </table><br> <br>
+      
+      <input type="submit" class="button" id="button" name="button" onclick="validateForm()"></input>
+    </form>
+  </head>
+</html>

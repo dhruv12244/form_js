@@ -9,15 +9,27 @@
       <hr><br>
          
       <div>
+        <div class="row">
+          <div class="col-sm-3">
+        
       <h2>Full name<span style="color: red ;">*</span></h2>
       <input type="text1" id="fname" name="fname" value="">
       <p id="OP1"></p>
       <label for="fname">First name</label>
       </div>
+      <div class="col-sm-3"></div>
+      <div class="col-sm-3">
       <input type="text2" id="lname" name="fname" value=""><br>
       <p id="OP2"></p>
       
-      <lable for="fname">Last name</lable>
+      <label for="fname">Last name</label>
+        </div>
+        <div class="col-sm-3"></div>
+        </div>
+      </div>
+
+
+      <div>
       <h2>Address <span style="color: red ;">*</span></h2>
       <input type="text3" id="Address1" name="Address1">
       <p id="OP3"></p><br>
@@ -25,24 +37,30 @@
       <input type="text4" id="Address2" name="Address2">
       <p id="OP4"></p><br>
       <label for="Address2">Street Address line2</Address></label><br><br>
-      <input type="text5" id="city" name="city">
-      <label for="city"><br>city</label>
+      <input type="text5" id="city" name="city"> <br><br>
+      <p id="OP5"></p>
+      <label for="city"><br><center>City</center></label><br><br>
       
-      <p id="OP5"></p> <br>
+      
+      
+      
+     
       
       
       
       
       <input type="text6" id="state" name="state"><br>
+      <p id="OP6"></p><br>
       <label for="state/province">State/province</Address></label><br><br>
       
       
      
-      <p id="OP6"></p><br>
+      
       
       <input type="number1" id="Postal" name="Postal">
       <p id="OP7"></p>
       <label for="Postal/zip code">Postal/zip code</Address></label><br><br>
+      </div>
       <h2>Phone Number <span style="color: red ;">*</span></h2>
       <input type="number2"id="phonenumber"name="phone number" placeholder="(000)000-0000"><br>
       <p id="OP13"></p>
@@ -59,15 +77,17 @@
     <option value="E-mail">E-mail</option>  
     <option value="Youtube">Youtube</option>  
     <option value="Others" >Others</option> 
-    </select>  
+    </select> 
+    <div> 
     <h2>Feedback about us:</h2>
     <textarea type="text7" name="Feedback" id="Feedback" cols="125" rows="10" ></textarea></div><br>
      <p id="OP9"></p>
+    </div><br>
       
       
       
      <h2>Suggestions if for further improvement:</h2>
-     <textarea type="text8" name="Suggestions" id="suggesions" cols="125" rows="10" ></textarea><br><br>
+     <textarea type="text8" name="Suggestions" id="Suggestions" cols="125" rows="10" ></textarea><br><br>
      <p id="OP10"></p><br>
       
       
@@ -75,19 +95,20 @@
       <form>
         <label for="vehicle1"><b> Will you be willing to recommend us?</b></label>
         <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike"></form><br>
-        <p id="OP11"></p><br><br>
+        <p id="OP11"></p><br><br></form>
         
         
       <form>
-        <p id="OP12"></p>
+        
         <p><b>Gender:</b></p>
-        <input type="radio" id="male" name="gender" value="Male">
+        <input type="radio" id="gender" name="gender" value="">
           <label for="Male">Male</label>
-          <input type="radio" id="Female" name="gender" value="Female">
+          <input type="radio" id="gender" name="gender" value="">
           <label for="Female">Female</label>
-          <input type="radio" id="Other" name="gender" value="Other">
+          <input type="radio" id="gender" name="gender" value="">
           <label for="Other">Other</label>
       </form>
+      <p id="OP12"></p>
       <h2>Please give reference of any people whom :</h2>
       <table align="center">
         <form>
